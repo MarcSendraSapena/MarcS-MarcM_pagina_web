@@ -1,0 +1,599 @@
+html {
+    font-family: 'Barlow Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*estilos cabecera*/
+
+header {
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid #1D1860;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+}
+
+header .logo {
+    width: 10%;
+    height: 120px;
+    margin: 15px 0 10px 30px;
+    float: left;
+}
+
+/*lupita buscador estilos*/
+
+header form {
+    border-radius: 25px;
+    position: relative;
+}
+
+header input {
+    width: 30%;
+    height: 5%;
+    float: left;
+    padding: 1%;
+    margin: 50px 0 0 400px;
+    border-radius: 5px;
+}
+
+header input:focus {
+    outline: none;
+}
+
+header button {
+    position: absolute;
+    top: 70px;
+    right: 39%;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+header button i {
+    color: #1D1860;
+}
+
+/* Logos DIV*/
+
+header .menu {
+    width: 30%;
+    height: 56px;
+    float: left;
+    margin: 50px 0 0 50px;
+
+}
+
+/* Login estilos */
+
+header .logoPersona {
+    height: 50px;
+    float: left;
+    margin: 3px 0 0 55px;
+}
+
+/* Ubi estilos*/
+
+header .logoUbi {
+    height: 50px;
+    float: left;
+    margin: 3px 0 0 55px;
+}
+
+/* Cesta estilos*/
+
+header .logoCesta {
+    height: 50px;
+    float: left;
+    margin: 3px 0 0 55px;
+}
+
+/* Contacto estilos*/
+
+header .logoContacto {
+    height: 50px;
+    float: left;
+    margin: 3px 0 0 55px;
+}
+
+/* Nav Styles (Submenu)*/
+
+nav {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: #1D1860;
+    position: fixed;
+    top: 150px;
+    z-index: 10;
+}
+
+.navFixed {
+    position: fixed;
+}
+
+nav ol {
+    display: inline;
+    float: left;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+
+.nav__link {
+    color: #1D1860;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+
+/* Main estilos*/
+
+main {
+    width: 80%;
+    height: 1200px;
+    margin-left: 10%;
+}
+
+main .Intro {
+    width: 100%;
+    height: 200px;
+    padding-top: 150px;
+}
+
+main .Intro h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+main .Intro p {
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+main .most_relevant{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    padding-top: 2%;
+}
+
+main .productos {
+    width: 22%;
+    height: 600px;
+    border: lightgray solid 2px;
+    border-radius: 3px;
+    margin: 0 0 0 56.5px;
+    float: left;
+    margin-top: 5%;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+
+main .productos img {
+    width: 100%;
+    height: 300px;
+}
+
+main .productos>p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 23px 10px;
+    height: 100px;
+}
+
+.precios p {
+    font-size: 32px;
+    padding-left: 0%;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 150px;
+}
+
+.preciosiniva {
+    font-size: 24px;
+    color: rgb(104, 103, 105);
+    width: 50%;
+    margin-left: 150px;
+    margin-top: -15px;
+    padding-left: 21px;
+}
+
+.iva {
+    color: rgb(180, 189, 186);
+    font-size: 24px;
+    padding-left: 1px;
+}
+
+.fotologo {
+    width: 100%;
+    height: 7%;
+}
+
+/*estilos boton articulos*/
+
+.button {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px 0px 3px 3px;
+    font-weight: bold;
+}
+
+.button i {
+    margin-right: 5px;
+    margin-top: 11px;
+    font-size: 25px;
+}
+
+/* estilos footer*/
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #1D1860;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer li {
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    display: list-item;
+    list-style: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li i {
+    font-size: 16px;
+    color: white;
+}
+
+footer .condLegal {
+    width: 20%;
+    margin: 25px 0 0 80px;
+    height: 150px;
+    float: left;
+}
+
+footer .nosotros {
+    width: 20%;
+    margin: 25px 0 0 80px;
+    height: 150px;
+    float: left;
+}
+
+footer .socials {
+    width: 20%;
+    margin: 25px 0 0 80px;
+    height: 150px;
+    float: left;
+}
+
+footer .socials .fa {
+    margin: 10px 0 0 10px;
+    font-size: 40px;
+}
+
+footer .atencionCliente {
+    width: 20%;
+    margin: 25px 0 0 80px;
+    height: 150px;
+    float: left;
+}
+
+footer .atencionCliente .fa {
+    font-size: 20px;
+}
+
+footer .atencionCliente span {
+    margin-left: 10px;
+}
+
+
+/*Pagina Login css*/
+
+.body {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5%;
+}
+
+.subbody {
+    width: 30%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-top: 150px;
+
+}
+
+.subsubbody {
+    border: 0.5px solid black;
+    width: 100%;
+    height: 697px;
+    margin-left: 115px;
+    border-radius: 5px;
+
+}
+
+.subsubbody h1 {
+    font-family: monospace;
+    padding-left: 10%;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.subsubbody p {
+    font-family: monospace;
+    padding-top: 10px;
+    padding-left: 10%;
+    font-size: 20px;
+}
+
+.subsubbody input {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+}
+
+.contraseña {
+    float: right;
+    color: red;
+    padding-right: 10%;
+}
+
+.subsubbody button {
+    font-family: monospace;
+    width: 81%;
+    height: 65px;
+    background-color: rgb(243, 170, 34);
+    margin-left: 8%;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.subsubbody hr {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 11%;
+}
+
+.new-client {
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+
+/* Contacto.html css*/
+
+.bodyContacto{
+    width: 80%;
+    border: 2px solid black;
+    height: 1000px;
+    float: left;
+    background-image: url(img/ContactoBack.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.containerContacto{
+    width: 40%;
+    height: 700px;
+    margin-left: 200px;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+.containerContacto h1{
+    color: #1D1860;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.inputAsunto{
+    height: 30px;
+    width: 80%;
+    margin-left: 60px;
+    margin-bottom: 25px;
+}
+
+
+.inputCheck{
+    margin-left: 60px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.inputConsulta {
+    width: 80%;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    height: 300px;
+    margin-left: 60px;
+}
+
+.inputConsulta::placeholder{
+    position: absolute;
+    top: 0;
+    margin: 10px 0 0 20px;
+}
+
+.containerContacto p{
+    color: red;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.containerContacto button{
+    width: 80%;
+    background-color: #E5941F;
+    height: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Crarcuenta.html css*/
+
+.body2 {
+    width: 100%;
+    height: 1400px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5%;
+}
+
+.subbody2 {
+    width: 30%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-top: 150px;
+
+}
+
+.subsubbody2 {
+    border: 0.5px solid black;
+    width: 100%;
+    height: 1150px;
+    margin-left: 115px;
+    border-radius: 5px;
+
+}
+
+.subsubbody2 h1 {
+    font-family: monospace;
+    padding-left: 10%;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.subsubbody2 p {
+    font-family: monospace;
+    padding-top: 10px;
+    padding-left: 10%;
+    font-size: 20px;
+    margin-right: 10%;
+}
+
+.subsubbody2 input {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+}
+
+.contraseña2 {
+    float: right;
+    color: red;
+    padding-right: 10%;
+}
+
+.subsubbody2 button {
+    font-family: monospace;
+    width: 81%;
+    height: 65px;
+    background-color: rgb(243, 170, 34);
+    margin-left: 8%;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.subsubbody2 hr {
+    width: 85%;
+
+}
+
+.h12 {
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 13%;
+}
+
+/* Google Maps css*/
+
+.body4 {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 80%;
+    height: 700px;
+    margin-top: 120px;
+}
+
+.menu-horizontal {
+  background-color: #1e1763;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.menu-horizontal ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-horizontal ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.menu-horizontal ul li a:hover {
+  text-decoration: underline;
+}
